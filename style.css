@@ -1,0 +1,63 @@
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: #f6f6f6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-destaque{
+    color: #d358f8;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 15%;
+}
+
+.apresentacao_conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.apresentacao_conteudo_titulo{
+    font-size: 34px;
+    font-family:'Edu NSW ACT Foundation', cursive;
+}
+
+.apresentacao_conteudo_texto{
+    font-size: 22px;
+    font-family:'Alkatra', cursive;
+}
+
+.apresentacao_links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao_links_link{
+    background-color: #d358f8;
+    width: 260px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px 0;
+    color: black;
+    font-family:'Alkatra', cursive;
+    text-decoration: none;
+
+}
+
+img{
+    margin-left: 15px;
+   width: 550px;
+}
